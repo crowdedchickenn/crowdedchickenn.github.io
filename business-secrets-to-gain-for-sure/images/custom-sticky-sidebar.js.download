@@ -1,0 +1,14 @@
+//sticky sidebar
+jQuery(document).ready(function ($) {
+var at_body = jQuery("body");
+var at_window = jQuery(window);
+
+if(at_body.hasClass('ct-sticky-sidebar')){
+        if(at_body.hasClass('right-sidebar')){
+            jQuery('.page-sidebar-column, .page-content-column').theiaStickySidebar();
+        }
+        else{
+            jQuery('.page-sidebar-column, .page-content-column').theiaStickySidebar();
+        }
+    }
+});
